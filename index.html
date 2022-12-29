@@ -8,24 +8,21 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Normal Accessibility Test </h1>
-    <nav class="navbar">
-        <ul>
-            <li><a href="#">Tutorial</a></li>
-            <li><a href="#">Exercise</a></li>
-            <li><a href="#">Video</a></li>
-            <li><a href="#">References</a></li>
-            <li><a href="#">LogIn</a></li>
-        </ul>
-    </nav>
-
-    <ul>
-        <li><a href="#">Login</a></li>
-        <li><a href="#">Piad Course</a></li>
-    </ul>
-    <button type="submit">OK</button>
-    <button type="reset">Cancel</button>
-
-    <div tabindex="0">div tag Accssibility</div>
+    <h1 tabindex="1">Normal Accessibility Test </h1>
+    <ul class="navbar">
+        <a href="#" tabindex="2">Tutorial</a>
+        <a href="#" tabindex="3">Exercise</a>
+        <a href="#" tabindex="4">Video</a>
+        <a href="#" tabindex="5">References</a>
+        <a href="#" tabindex="6">LogIn</a>
+        <br/>
+        <a href="#" tabindex="7">Login</a> <br/>
+        <a href="#" tabindex="8">Piad Course</a>
+        <a href="#" tabindex="9">New</a>
+   </ul>
+   <div class="buttons">
+    <button type="submit" tabindex="10" accesskey="o">OK</button>
+    <button type="reset" tabindex="11" accesskey="c">Cancel</button>
+   </div>
 </body>
 </html>

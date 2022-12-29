@@ -1,21 +1,11 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.navbar{
-    display: flex;
-    margin: 0px 10px;
+.navbar {
+    margin-left: 16px;
 }
-.navbar ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-}
-.navbar ul li a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
+.buttons {
+    margin-left: 10px;
 }
